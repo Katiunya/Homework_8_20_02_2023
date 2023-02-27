@@ -1,0 +1,15 @@
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\bin\Debug\net6.0\Homework_8_20_02_2023.exe
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\bin\Debug\net6.0\Homework_8_20_02_2023.deps.json
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\bin\Debug\net6.0\Homework_8_20_02_2023.runtimeconfig.json
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\bin\Debug\net6.0\Homework_8_20_02_2023.dll
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\bin\Debug\net6.0\Homework_8_20_02_2023.pdb
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\Homework_8_20_02_2023.csproj.AssemblyReference.cache
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\Homework_8_20_02_2023.GeneratedMSBuildEditorConfig.editorconfig
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\Homework_8_20_02_2023.AssemblyInfoInputs.cache
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\Homework_8_20_02_2023.AssemblyInfo.cs
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\Homework_8_20_02_2023.csproj.CoreCompileInputs.cache
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\Homework_8_20_02_2023.dll
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\refint\Homework_8_20_02_2023.dll
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\Homework_8_20_02_2023.pdb
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\Homework_8_20_02_2023.genruntimeconfig.cache
+F:\Users\Александр\Desktop\C#\Homework_8_20_02_2023\obj\Debug\net6.0\ref\Homework_8_20_02_2023.dll
