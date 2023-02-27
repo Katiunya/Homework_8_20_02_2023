@@ -9,72 +9,7 @@
 // 8 4 4 2
 
 
-Console.Write("Input count of rows: ");
-int user_rows = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input count of columns: ");
-int user_columns = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input minimum value: ");
-int user_min = Convert.ToInt32(Console.ReadLine());
-Console.Write("Input maximum value: ");
-int user_max = Convert.ToInt32(Console.ReadLine());
 
-
-int [,] Created2dArray (int user_rows)
-{     
-    int [,] createdArray = new int[user_rows, user_columns];
-    for (int i = 0; i < user_rows; i++)
-    {
-        for (int j = 0; j < user_columns; j++)
-        {
-            createdArray[i,j] = new Random().Next(user_min, user_max + 1);
-
-        }
-    }
-    return createdArray;
-}
-
-void Show2dArray (int [,] array) 
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1); j++)
-        {
-            Console.Write (array[i,j] + " ");
-        }
-        Console.WriteLine();
-    }
-    Console.WriteLine();
-}
-
-int[,] array = Created2dArray(user_rows, user_columns);
-
-Created2dArray();
-Console.WriteLine();
-Show2dArray(array);
-
-int [,] ChangeArray (int [] array)
-{
-    for (int i = 0; i < array.GetLength(0); i++)
-    {
-        for (int j = 0; j < array.GetLength(1) - 1; j++)
-        {
-            for (int z = 0; z < array.GetLength(1) - 1; z++)
-            {
-                if (array[i, z] < array[i, z + 1]) 
-                {
-                    int temp = 0;
-                    temp = array[i, z];
-                    array[i, z] = array[i, z + 1];
-                    array[i, z + 1] = temp;
-                }
-            }
-        }
-    }
-    return array;
-}    
-Console.WriteLine();
-
-Show2dArray(Created2dArray);
 
 
 
@@ -87,7 +22,42 @@ Show2dArray(Created2dArray);
 
 // Программа считает сумму элементов в каждой строке и выдаёт номер строки с наименьшей суммой элементов: 1 строка
 
-/*
+int [,] Created2dArray ()
+
+{
+    Console.Write("Input count of rows: ");
+    int user_rows = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Input count of columns: ");
+    int user_columns = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Input minimum value: ");
+    int user_min = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Input maximum value: ");
+    int user_max = Convert.ToInt32(Console.ReadLine());
+    int [,] createdArray = new int[user_rows, user_columns];
+    for (int i = 0; i < user_rows; i++)
+    {
+        for (int j = 0; j < user_columns; j++)
+        {
+            createdArray[i,j] = new Random().Next(user_min, user_max + 1);
+
+        }
+    }
+    return createdArray;
+}
+
+void Show2dArray (int [,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write (array[i,j] + " ");
+        }
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}
+
 int MinSumOfRow(int[,] int2DArray)
 {
     int[] sumRow = new int[int2DArray.GetLength(0)];
@@ -119,7 +89,7 @@ int[,] myArray = Created2dArray();
 Show2dArray(myArray);
 int rowIndex = MinSumOfRow(myArray);
 Console.WriteLine($"The smallest sum of the numbers in the row - {rowIndex}");
-*/
+
 // Задача 57: Составить частотный словарь элементов двумерного массива. Частотный словарь содержит информацию о том, сколько раз встречается 
 // элемент входных данных.
 // 1, 9, 9, 0,
